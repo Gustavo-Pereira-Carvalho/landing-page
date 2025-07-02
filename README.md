@@ -40,3 +40,7 @@ O layout se adapta para diferentes tamanhos de tela:
 
 ---
 
+## 📸 Imagem de Exemplo
+
+![Print da Calculadora](./screenshot/)
+
