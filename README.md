@@ -17,6 +17,11 @@ A landing page contém:
 
 ---
 
+## 🔗 Acesse em
+(https://gustavo-pereira-carvalho.github.io/landing-page/)
+
+---
+
 ## 💻 Tecnologias utilizadas
 
 - HTML5
