@@ -1,67 +1,85 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Landing Page - Produto XYZ</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Criação de Sites Simples | Gustavo Pereira</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
-    <nav class="nav-container">
-      <h1>Produto XYZ</h1>
-      <ul class="nav-links">
-        <li><a href="#beneficios">Benefícios</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
+
+  <!-- HERO -->
+  <header>
+    <h1>Criação de Sites Simples e Profissionais</h1>
+    <p>
+      Sites rápidos, responsivos e prontos para divulgar seu serviço ou negócio.
+      Ideal para quem quer presença online sem gastar muito.
+    </p>
+    <a 
+      href="https://wa.me/5500000000000" 
+      target="_blank" 
+      class="btn"
+    >
+      Falar comigo no WhatsApp
+    </a>
   </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h2>Transforme seu dia a dia com o Produto XYZ</h2>
-      <p>A solução inovadora que você precisava para facilitar sua vida.</p>
-      <a href="#contato" class="btn-cta">Quero saber mais</a>
+  <!-- BENEFÍCIOS -->
+  <section>
+    <h2>O que você recebe</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>📱 Responsivo</h3>
+        <p>
+          Seu site funciona perfeitamente em celular, tablet e computador.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>⚡ Rápido</h3>
+        <p>
+          Código leve, carregamento rápido e boa experiência para o visitante.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🛠️ Entrega rápida</h3>
+        <p>
+          Site entregue em poucos dias, pronto para uso.
+        </p>
+      </div>
     </div>
   </section>
 
-  <section id="beneficios" class="section-container">
-    <h2>Benefícios</h2>
-    <ul>
-      <li>✅ Fácil de usar</li>
-      <li>✅ Design moderno e intuitivo</li>
-      <li>✅ Suporte 24/7</li>
-      <li>✅ Preço acessível</li>
-    </ul>
-  </section>
-
-  <section id="sobre" class="section-container">
-    <h2>Sobre o Produto</h2>
-    <p>
-      O Produto XYZ foi criado para trazer mais praticidade e eficiência para o seu dia a dia. Com tecnologia de ponta e foco na experiência do usuário, ele é ideal para quem busca qualidade.
+  <!-- SOBRE -->
+  <section>
+    <h2>Quem sou eu</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Sou desenvolvedor iniciante focado em criação de sites simples e funcionais.
+      Já desenvolvi projetos de portfólio, landing pages e aplicações web básicas.
     </p>
   </section>
 
-  <section id="contato" class="section-container contato">
-    <h2>Contato</h2>
-    <form action="#" method="POST" class="form-contato">
-      <label for="nome">Nome:</label><br />
-      <input type="text" id="nome" name="nome" required /><br />
-
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" required /><br />
-
-      <label for="mensagem">Mensagem:</label><br />
-      <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br />
-
-      <button type="submit" class="btn-cta">Enviar</button>
-    </form>
+  <!-- CTA FINAL -->
+  <section class="cta">
+    <h2>Vamos criar seu site?</h2>
+    <p>Entre em contato agora e peça um orçamento sem compromisso.</p>
+    <a 
+      href="https://wa.me/5500000000000" 
+      target="_blank" 
+      class="btn"
+    >
+      Pedir orçamento
+    </a>
   </section>
 
+  <!-- FOOTER -->
   <footer>
-    <p>Feito por Gustavo Pereira</p>
+    © 2026 — Gustavo Pereira
   </footer>
+
 </body>
 </html>
